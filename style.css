@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+html, body {
+    margin:0;
+    padding:0;
+    height:100vh;
+    }
+
+body{
+    background-attachment: fixed;
+    background: #fc4a1a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Source Sans Pro', sans-serif;
+    color:white;
+    text-align: center;
+}
+
+#header{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#gaming-menu{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: x-large;
+}
+
+a.links {
+    font-size:10;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+  }
+  
+
+#wrapper {
+    width: 100vh;
+    margin: 1rem;
+}
+
+
+@keyframes move {
+    0% {
+        offset-distance: 0%;
+    }
+    100% {
+    offset-distance: 100%;
+  }
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+          -webkit-tap-highlight-color: transparent;
+  }
+  
+  button {
+      width: 150px;
+      height: 50px;
+      cursor: pointer;
+      font-size: 20px;
+      font-weight: bold;
+      color: black;
+      background: white;
+      border: 2px solid black;
+      box-shadow: 5px 5px 0 black,
+          -5px -5px 0 black,
+          -5px 5px 0 black,
+          5px -5px 0 black;
+      transition: 500ms ease-in-out;
+  }
+  
+  button:hover {
+      box-shadow: 20px 5px 0 black, -20px -5px 0 black;
+  }
+  
+  button:focus {
+      outline: none;
+  }
